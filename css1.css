@@ -58,6 +58,7 @@ margin-right: 25px;
 }
 .middle-nav .search img{
     width: 15px;
+    
 
 }
 /* ✔✔✔✔✔✔✔✔✔✔✔✔✔✔ ❤Sidebar❤ ✔✔✔✔✔✔✔✔✔✔✔✔ */
@@ -92,19 +93,19 @@ margin-right: 25px;
     background: #ccc;
     width: 85%;
 }
-.subscribed-list h3{
-font-size: 13px;
-margin: 20px 0;
-color: #5a5a5a;
+.teacher-list h1{
+font-size: 20px;
+margin: 30px -1px;
+color: #130e0e;
 }
-.subscribed-list a{
+.teacher-list a{
 display: flex;
 align-items: center;
 margin-bottom: 20px;
 width: fit-content;
 flex-wrap: wrap;
 }
-.subscribed-list a img{
+.teacher-list a img{
     width: 25px;
     border-radius: 50%;
     margin-right: 20px;
@@ -116,7 +117,7 @@ flex-wrap: wrap;
 .small-sidebar a p{
     display: none;
 }
-.small-sidebar h3{
+.small-sidebar h1{
     display: none;
 
 }
@@ -127,9 +128,9 @@ flex-wrap: wrap;
 /* ✔✔✔✔✔✔✔✔✔✔✔✔✔✔ ❤main❤ ✔✔✔✔✔✔✔✔✔✔✔✔ */
 .container{
     background: #f9f9f9;
-    padding-left: 17%;
-    padding-right: 2%;
-    padding-top: 20px;
+    padding-left: 15.7% !important;
+    padding-right: 1% !important;
+    padding-top: 20px !important;
     padding-bottom: 20px;
 }
 .large-container{
@@ -172,17 +173,19 @@ border-radius: 5%;
     display: block;
     margin-bottom: 5px;
 }
-@media(max-width:900px){
+ @media(max-width:900px){
     .menu-icon{
-        display: none;
-    }
+      
+      display: none;
+    } 
+
     .sidebar{
         
         display: none;
     }
     .container , .large-container{
         padding-left: 5%;
-        padding-right: 5%;
+        padding-right: 2% !important;
     }
     .right-nav img{
         display: none;
@@ -191,10 +194,10 @@ border-radius: 5%;
         display: block;
         width: 30px;
     }
-    .middle-nav .search input{
+    .middle-nav .middle-nav1 .search input{
         width: 100px;
     }
-    .middle-nav .mic{
+    .middle-nav  .middle-nav1 ,.mic{
         display: none;
     }
     .logo{
@@ -247,8 +250,8 @@ font-size: 13px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 10px;
-    font-size: 14px;
+    margin-top: -5px !important;
+    font-size: 10px;
     color: #5a5a5a;
 }
 .play-video .play-video-info a img{
@@ -347,7 +350,7 @@ font-size: 13px;
         flex-basis:100% ;
     }
     .play-content{
-padding-left: 5%;
+padding-left: 3% !important;
     }
     .vid-description{
         padding-left: 0;
@@ -356,5 +359,33 @@ padding-left: 5%;
         margin-left: 0;
         margin-right: 15px;
         margin-top: 35px;
+    
+        
     }
+    .container{
+        padding-left: 2% !important;
+    }
+
 }
+@media only screen and (max-width:647px) {
+    .search-box{
+
+    display: none;
+   }
+
+        }
+        /* @media only screen and (max-width:1500px) and (min-width:647px){
+          .middle-nav1   .searcsh-box1{
+            display: none;
+            
+            
+                }
+            }
+             */
+        /* @media only screen and (max-width: 646px) {
+             .search12{
+           color: #ed3833;
+            
+            
+                }
+            } */
